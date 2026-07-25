@@ -5,6 +5,7 @@ if CommandLine.arguments.contains("--dump-resources") {
     print("bundlePath:", Bundle.main.bundlePath)
     print("resourceURL:", Bundle.main.resourceURL?.path ?? "nil")
     print("resolved CHANGELOG:", AppResources.url(forResource: "CHANGELOG", withExtension: "md")?.path ?? "nil")
+    print("resolved LICENSE:", AppResources.url(forResource: "LICENSE", withExtension: "txt")?.path ?? "nil")
     print("entries:", Changelog.entries.count)
     exit(0)
 }

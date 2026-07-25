@@ -91,12 +91,8 @@ enum AppResources {
     }
 
     private static func moduleResourceURL(name: String, extension ext: String) -> URL? {
-        let filename = "\(name).\(ext)"
-        guard let bundleURL = moduleResourceBundleURL else { return nil }
-        let fileURL = bundleURL.appendingPathComponent(filename)
-        if FileManager.default.fileExists(atPath: fileURL.path) {
-            return fileURL
-        }
-        return nil
+        guard let bundleURL = moduleResourceBundleURL,
+              let bundle = Bundle(url: bundleURL) else { return nil }
+        return bundle.url(forResource: name, withExtension: ext)
     }
 }
