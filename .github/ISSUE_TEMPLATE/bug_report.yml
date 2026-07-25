@@ -16,7 +16,7 @@ body:
     attributes:
       label: Cursor Checker version
       description: Settings → About, or the version from the release you installed
-      placeholder: e.g. 1.4.2
+      placeholder: e.g. 1.0.0
     validations:
       required: true
 
