@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about.changelog</key>
+	<string>Changelog</string>
+	<key>about.checkingGitHub</key>
+	<string>Checking GitHub Releases…</string>
+	<key>about.deleteApp</key>
+	<string>Delete app</string>
+	<key>about.downloading</key>
+	<string>Downloading update…</string>
+	<key>about.installing</key>
+	<string>Installing update…</string>
+	<key>about.noBetaReleases</key>
+	<string>No beta releases published yet</string>
+	<key>about.noStableReleases</key>
+	<string>No releases published yet</string>
+	<key>about.tagline</key>
+	<string>Tracks Cursor quota usage</string>
+	<key>about.upToDateBeta</key>
+	<string>Up to date: beta %@</string>
+	<key>about.upToDateStable</key>
+	<string>Up to date: version %@</string>
+	<key>about.updateAvailableBeta</key>
+	<string>Beta %@ available</string>
+	<key>about.updateAvailableStable</key>
+	<string>Version %@ available</string>
+	<key>about.updateChannel</key>
+	<string>Update channel</string>
+	<key>about.updateCheck</key>
+	<string>Check for updates</string>
+	<key>about.updateNotesSubtitle</key>
+	<string>Description of the available update</string>
+	<key>about.version</key>
+	<string>Version %@</string>
+	<key>about.whatsNewIn</key>
+	<string>What's New in %@</string>
+	<key>alert.dailyBody</key>
+	<string>Spent today ≥ %@%% of the monthly quota (threshold %@%%). Cycle total: %@%%.</string>
+	<key>alert.dailyTitle</key>
+	<string>Cursor: spent today %@%%</string>
+	<key>appLanguage.system</key>
+	<string>System</string>
+	<key>appMenu.about</key>
+	<string>About %@</string>
+	<key>appMenu.connectCursor</key>
+	<string>Connect Cursor</string>
+	<key>appMenu.cursorNotConnected</key>
+	<string>Cursor is not connected</string>
+	<key>appMenu.error</key>
+	<string>Error: %@</string>
+	<key>appMenu.hide</key>
+	<string>Hide %@</string>
+	<key>appMenu.hideOthers</key>
+	<string>Hide Others</string>
+	<key>appMenu.quit</key>
+	<string>Quit %@</string>
+	<key>appMenu.remainingLine</key>
+	<string>Remaining: %@%%</string>
+	<key>appMenu.showAll</key>
+	<string>Show All</string>
+	<key>appMenu.spendUSDLine</key>
+	<string>Spent: $%@</string>
+	<key>appMenu.todayLine</key>
+	<string>Today: +%@%%  (threshold %@%%)</string>
+	<key>appMenu.totalSpentLine</key>
+	<string>Total spent: %@%%</string>
+	<key>appMenu.updatedLine</key>
+	<string>Updated: %@</string>
+	<key>appTheme.dark</key>
+	<string>Dark</string>
+	<key>appTheme.light</key>
+	<string>Light</string>
+	<key>appTheme.system</key>
+	<string>Automatic</string>
+	<key>basics.appearance</key>
+	<string>Appearance</string>
+	<key>basics.language</key>
+	<string>Language</string>
+	<key>basics.launchAtLogin</key>
+	<string>Launch at login</string>
+	<key>basics.launchAtLoginDisabled</key>
+	<string>Launch at login disabled</string>
+	<key>basics.launchAtLoginEnabled</key>
+	<string>Launch at login enabled</string>
+	<key>changelog.empty</key>
+	<string>Changelog is empty.</string>
+	<key>changelog.unavailable</key>
+	<string>Changelog is unavailable. Install a release from GitHub or rebuild the app.</string>
+	<key>changelog.version</key>
+	<string>Version %@</string>
+	<key>common.allowed</key>
+	<string>Allowed</string>
+	<key>common.cancel</key>
+	<string>Cancel</string>
+	<key>common.check</key>
+	<string>Check</string>
+	<key>common.checking</key>
+	<string>Checking…</string>
+	<key>common.clear</key>
+	<string>Clear</string>
+	<key>common.close</key>
+	<string>Close</string>
+	<key>common.connected</key>
+	<string>Connected</string>
+	<key>common.delete</key>
+	<string>Delete</string>
+	<key>common.details</key>
+	<string>Details</string>
+	<key>common.errorPrefix</key>
+	<string>Error: %@</string>
+	<key>common.loading</key>
+	<string>Loading…</string>
+	<key>common.overview</key>
+	<string>Overview</string>
+	<key>common.quit</key>
+	<string>Quit</string>
+	<key>common.refresh</key>
+	<string>Refresh</string>
+	<key>common.refreshNow</key>
+	<string>Refresh now</string>
+	<key>common.remaining</key>
+	<string>Remaining</string>
+	<key>common.request</key>
+	<string>Request</string>
+	<key>common.send</key>
+	<string>Send</string>
+	<key>common.settings</key>
+	<string>Settings</string>
+	<key>common.settingsEllipsis</key>
+	<string>Settings…</string>
+	<key>common.show</key>
+	<string>Show</string>
+	<key>common.thresholdValue</key>
+	<string>Threshold %@</string>
+	<key>common.today</key>
+	<string>Today</string>
+	<key>common.totalSpent</key>
+	<string>Total spent</string>
+	<key>common.update</key>
+	<string>Update</string>
+	<key>common.updated</key>
+	<string>Updated</string>
+	<key>configSummary.macOff</key>
+	<string>macOS: off</string>
+	<key>configSummary.macOn</key>
+	<string>macOS: on</string>
+	<key>configSummary.menuHidden</key>
+	<string>Menu: hidden</string>
+	<key>configSummary.menuVisible</key>
+	<string>Menu: visible</string>
+	<key>configSummary.poll</key>
+	<string>Poll: %lld min</string>
+	<key>configSummary.telegramOff</key>
+	<string>Telegram: off</string>
+	<key>configSummary.telegramOn</key>
+	<string>Telegram: on</string>
+	<key>configSummary.threshold</key>
+	<string>Threshold: %lld%%</string>
+	<key>configSummary.updates</key>
+	<string>Updates: %@</string>
+	<key>connection.access</key>
+	<string>Cursor access</string>
+	<key>connection.account</key>
+	<string>Account</string>
+	<key>connection.active</key>
+	<string>The app is tracking quota usage</string>
+	<key>connection.checking</key>
+	<string>Checking Cursor access…</string>
+	<key>connection.getToken</key>
+	<string>Get token</string>
+	<key>connection.howItWorks</key>
+	<string>How it works</string>
+	<key>connection.howItWorksBody</key>
+	<string>After you tap “Get token”, the app reads the local session token from Cursor’s database, stores it locally, and polls Cursor’s servers to show quota usage. The token is never sent anywhere except Cursor’s servers.</string>
+	<key>connection.prompt</key>
+	<string>Tap “Get token” to get started</string>
+	<key>connection.revokeToken</key>
+	<string>Revoke token</string>
+	<key>cycle.dayFew</key>
+	<string>days</string>
+	<key>cycle.dayMany</key>
+	<string>days</string>
+	<key>cycle.dayOne</key>
+	<string>day</string>
+	<key>cycle.daysOne</key>
+	<string>%lld day</string>
+	<key>cycle.daysOther</key>
+	<string>%lld days</string>
+	<key>cycle.resetLine</key>
+	<string>Paid until: %@ (%@)</string>
+	<key>cycle.today</key>
+	<string>today</string>
+	<key>error.decode</key>
+	<string>Couldn’t parse response: %@</string>
+	<key>error.network</key>
+	<string>Network: %@</string>
+	<key>error.noToken</key>
+	<string>Cursor token not found. Sign in to the Cursor app.</string>
+	<key>error.tokenExpired</key>
+	<string>Cursor token expired. Open Cursor to refresh the session.</string>
+	<key>general.dailyThreshold</key>
+	<string>Daily threshold</string>
+	<key>general.dailyThresholdDaysAll</key>
+	<string>days left</string>
+	<key>general.dailyThresholdDaysWorking</key>
+	<string>working days left</string>
+	<key>general.dailyThresholdHint</key>
+	<string>Monthly quota percent gained in a day</string>
+	<key>general.dailyThresholdManualHint</key>
+	<string>Alert when more is spent in a day</string>
+	<key>general.dailyThresholdSmartHint</key>
+	<string>Threshold is recalculated as remaining quota ÷ remaining days</string>
+	<key>general.dailyThresholdSmartMode</key>
+	<string>Smart mode</string>
+	<key>general.dailyThresholdSmartModeHint</key>
+	<string>Remaining quota ÷ remaining days</string>
+	<key>general.dailyThresholdSmartPreview</key>
+	<string>%@%% left · %lld %@</string>
+	<key>general.dailyThresholdWorkingDays</key>
+	<string>Working days only</string>
+	<key>general.dailyThresholdWorkingDaysHint</key>
+	<string>Exclude Saturday and Sunday</string>
+	<key>general.interval</key>
+	<string>Interval</string>
+	<key>general.pollBatteryHint</key>
+	<string>Affects battery usage</string>
+	<key>general.pollInterval</key>
+	<string>Poll interval</string>
+	<key>general.threshold</key>
+	<string>Threshold</string>
+	<key>general.timeUnit</key>
+	<string>Time unit</string>
+	<key>journal.accessGranted</key>
+	<string>Access granted</string>
+	<key>journal.actionFailed</key>
+	<string>Failed</string>
+	<key>journal.checkUpdates</key>
+	<string>Check for updates</string>
+	<key>journal.clear</key>
+	<string>Clear</string>
+	<key>journal.clearHelp</key>
+	<string>Clear journal</string>
+	<key>journal.connectCursor</key>
+	<string>Connecting to Cursor</string>
+	<key>journal.disabledHint</key>
+	<string>No new entries are added</string>
+	<key>journal.downloadUpdate</key>
+	<string>Download update</string>
+	<key>journal.emptyPlaceholder</key>
+	<string>—</string>
+	<key>journal.enable</key>
+	<string>Enable logging</string>
+	<key>journal.enabledHint</key>
+	<string>Anonymized requests and actions are recorded</string>
+	<key>journal.installUpdate</key>
+	<string>Install update</string>
+	<key>journal.loggingDisabled</key>
+	<string>Logging is disabled</string>
+	<key>journal.notificationCount</key>
+	<string>Count: %lld</string>
+	<key>journal.pollManual</key>
+	<string>Requested manually</string>
+	<key>journal.pollUsage</key>
+	<string>Poll usage</string>
+	<key>journal.readLocalToken</key>
+	<string>Reading local token</string>
+	<key>journal.relaunchApp</key>
+	<string>Relaunch app</string>
+	<key>journal.revokeToken</key>
+	<string>Revoke Cursor token</string>
+	<key>journal.saveSettings</key>
+	<string>Save settings</string>
+	<key>journal.sendNotifications</key>
+	<string>Send notifications</string>
+	<key>journal.testMac</key>
+	<string>Test macOS notification</string>
+	<key>journal.testTelegram</key>
+	<string>Test Telegram notification</string>
+	<key>journal.updateInstalled</key>
+	<string>Update installed</string>
+	<key>launchAtLogin.notBundled</key>
+	<string>Launch at login is only available for an installed .app</string>
+	<key>license.notFound</key>
+	<string>License text not found.</string>
+	<key>license.title</key>
+	<string>License Agreement</string>
+	<key>menuBar.dropdown</key>
+	<string>Dropdown menu</string>
+	<key>menuBar.mode.daily</key>
+	<string>Daily quota percent</string>
+	<key>menuBar.mode.total</key>
+	<string>Total quota percent</string>
+	<key>menuBar.reorderAccessibility</key>
+	<string>Drag to reorder</string>
+	<key>menuBar.reorderHint</key>
+	<string>Drag rows to reorder</string>
+	<key>menuBar.showInMenuBar</key>
+	<string>Show in menu bar</string>
+	<key>menuBar.showInMenuBarHint</key>
+	<string>The app keeps running in the background even when hidden</string>
+	<key>menuBar.title</key>
+	<string>Menu bar</string>
+	<key>menuBar.titleHint</key>
+	<string>Total quota % or daily quota %</string>
+	<key>menuBar.warningIcon</key>
+	<string>Warning icon</string>
+	<key>menuBar.warningIconHint</key>
+	<string>Show ⚠️ when the daily threshold is exceeded</string>
+	<key>menuField.autoApi</key>
+	<string>Auto / API</string>
+	<key>menuField.cycleEnd</key>
+	<string>Paid until</string>
+	<key>menuField.remaining</key>
+	<string>Remaining</string>
+	<key>menuField.spendUSD</key>
+	<string>Spent ($)</string>
+	<key>menuField.today</key>
+	<string>Today</string>
+	<key>menuField.totalSpent</key>
+	<string>Total spent</string>
+	<key>notifications.botToken</key>
+	<string>Bot token</string>
+	<key>notifications.chatId</key>
+	<string>Chat ID</string>
+	<key>notifications.chatIdPlaceholder</key>
+	<string>e.g. 12345678</string>
+	<key>notifications.enableMacFirst</key>
+	<string>Enable system notifications above</string>
+	<key>notifications.mac</key>
+	<string>System notifications</string>
+	<key>notifications.macAuthorized</key>
+	<string>Allowed</string>
+	<key>notifications.macDenied</key>
+	<string>Denied — enable in System Settings</string>
+	<key>notifications.macNotRequested</key>
+	<string>Not requested</string>
+	<key>notifications.macPermission</key>
+	<string>macOS permission</string>
+	<key>notifications.macTestHint</key>
+	<string>Sends a test system notification</string>
+	<key>notifications.macTestNeedsPermission</key>
+	<string>Allow notifications in macOS first</string>
+	<key>notifications.openSettings</key>
+	<string>Open Settings</string>
+	<key>notifications.permissionAlertBody</key>
+	<string>macOS sometimes doesn’t show the dialog for background apps. Open System Settings → Notifications → Cursor Checker and enable notifications manually.</string>
+	<key>notifications.permissionAlertTitle</key>
+	<string>Couldn’t show the permission prompt</string>
+	<key>notifications.telegramEnable</key>
+	<string>Enable Telegram</string>
+	<key>notifications.telegramSection</key>
+	<string>Telegram</string>
+	<key>notifications.telegramTestHint</key>
+	<string>Sends a test Telegram message</string>
+	<key>notifications.test</key>
+	<string>Test</string>
+	<key>overview.breakdownAPICaption</key>
+	<string>Direct model API calls.</string>
+	<key>overview.breakdownAPITitle</key>
+	<string>API</string>
+	<key>overview.breakdownAutoCaption</key>
+	<string>Tab, Composer, and background agents.</string>
+	<key>overview.breakdownAutoTitle</key>
+	<string>Auto + Composer</string>
+	<key>overview.breakdownSummary</key>
+	<string>%@ Auto and %@ API</string>
+	<key>overview.disconnectedBody</key>
+	<string>Open the Connection tab in Settings and tap “Get token”.</string>
+	<key>overview.disconnectedTitle</key>
+	<string>Cursor is not connected</string>
+	<key>poll.unit.hours</key>
+	<string>Hours</string>
+	<key>poll.unit.minutes</key>
+	<string>Minutes</string>
+	<key>poll.unit.seconds</key>
+	<string>Seconds</string>
+	<key>settings.tab.about</key>
+	<string>About</string>
+	<key>settings.tab.basics</key>
+	<string>General</string>
+	<key>settings.tab.connection</key>
+	<string>Connection</string>
+	<key>settings.tab.general</key>
+	<string>Polling &amp; thresholds</string>
+	<key>settings.tab.journal</key>
+	<string>Journal</string>
+	<key>settings.tab.menuBar</key>
+	<string>Menu bar</string>
+	<key>settings.tab.notifications</key>
+	<string>Notifications</string>
+	<key>settings.tab.overview</key>
+	<string>Overview</string>
+	<key>testNotification.bodyPrefix</key>
+	<string>Test: notifications are working. </string>
+	<key>testNotification.quota</key>
+	<string>Currently %@%% of quota.</string>
+	<key>testNotification.title</key>
+	<string>Cursor Checker</string>
+	<key>testTelegram.missingCredentials</key>
+	<string>Enter the bot token and chat ID</string>
+	<key>uninstall.body</key>
+	<string>The app, autostart, settings, and saved Telegram and Cursor tokens will be removed. This can’t be undone.</string>
+	<key>uninstall.failed</key>
+	<string>Couldn’t delete the app</string>
+	<key>uninstall.title</key>
+	<string>Delete %@?</string>
+	<key>update.archiveMissing</key>
+	<string>File not received</string>
+	<key>update.checksumRequired</key>
+	<string>Auto-update requires a checksum file. Download the release manually.</string>
+	<key>update.checksumUnavailable</key>
+	<string>Checksum unavailable</string>
+	<key>update.fileNotReceived</key>
+	<string>Update file not received</string>
+	<key>update.githubParseFailed</key>
+	<string>Couldn’t parse GitHub response</string>
+	<key>update.invalidServerResponse</key>
+	<string>Invalid server response</string>
+	<key>update.missingZip</key>
+	<string>Release is missing file %@</string>
+	<key>update.releasesNotFound</key>
+	<string>Releases not found</string>
+	<key>update.serverCode</key>
+	<string>Server returned code %lld</string>
+	<key>updateChannel.beta</key>
+	<string>Beta</string>
+	<key>updateChannel.stable</key>
+	<string>Stable</string>
+	<key>updateError.appNotFound</key>
+	<string>CursorChecker.app not found in archive</string>
+	<key>updateError.checksumInvalid</key>
+	<string>Checksum file is corrupted or invalid</string>
+	<key>updateError.checksumMismatch</key>
+	<string>Archive checksum mismatch — update cancelled</string>
+	<key>updateError.checksumUnavailable</key>
+	<string>Couldn’t download release checksum</string>
+	<key>updateError.unsafePath</key>
+	<string>Unsafe path in archive: %@</string>
+	<key>updateError.unzipFailed</key>
+	<string>Couldn’t unzip the update archive</string>
+</dict>
+</plist>

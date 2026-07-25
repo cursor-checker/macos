@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about.changelog</key>
+	<string>История изменений</string>
+	<key>about.checkingGitHub</key>
+	<string>Проверяем GitHub Releases…</string>
+	<key>about.deleteApp</key>
+	<string>Удалить приложение</string>
+	<key>about.downloading</key>
+	<string>Скачиваем обновление…</string>
+	<key>about.installing</key>
+	<string>Устанавливаем обновление…</string>
+	<key>about.noBetaReleases</key>
+	<string>Бета-релизы пока не опубликованы</string>
+	<key>about.noStableReleases</key>
+	<string>Опубликованных релизов пока нет</string>
+	<key>about.tagline</key>
+	<string>Следит за расходом квоты Cursor</string>
+	<key>about.upToDateBeta</key>
+	<string>Установлена актуальная бета %@</string>
+	<key>about.upToDateStable</key>
+	<string>Установлена актуальная версия %@</string>
+	<key>about.updateAvailableBeta</key>
+	<string>Доступна бета %@</string>
+	<key>about.updateAvailableStable</key>
+	<string>Доступна версия %@</string>
+	<key>about.updateChannel</key>
+	<string>Канал обновлений</string>
+	<key>about.updateCheck</key>
+	<string>Проверка обновлений</string>
+	<key>about.updateNotesSubtitle</key>
+	<string>Описание доступного обновления</string>
+	<key>about.version</key>
+	<string>Версия %@</string>
+	<key>about.whatsNewIn</key>
+	<string>Что нового в %@</string>
+	<key>alert.dailyBody</key>
+	<string>Сегодня потрачено ≥ %@%% месячной квоты (порог %@%%). Всего за цикл: %@%%.</string>
+	<key>alert.dailyTitle</key>
+	<string>Cursor: расход за сегодня %@%%</string>
+	<key>appLanguage.system</key>
+	<string>Системный</string>
+	<key>appMenu.about</key>
+	<string>О %@</string>
+	<key>appMenu.connectCursor</key>
+	<string>Подключить Cursor</string>
+	<key>appMenu.cursorNotConnected</key>
+	<string>Cursor не подключён</string>
+	<key>appMenu.error</key>
+	<string>Ошибка: %@</string>
+	<key>appMenu.hide</key>
+	<string>Скрыть %@</string>
+	<key>appMenu.hideOthers</key>
+	<string>Скрыть остальные</string>
+	<key>appMenu.quit</key>
+	<string>Выход из %@</string>
+	<key>appMenu.remainingLine</key>
+	<string>Осталось: %@%%</string>
+	<key>appMenu.showAll</key>
+	<string>Показать все</string>
+	<key>appMenu.spendUSDLine</key>
+	<string>Потрачено: $%@</string>
+	<key>appMenu.todayLine</key>
+	<string>Сегодня: +%@%%  (порог %@%%)</string>
+	<key>appMenu.totalSpentLine</key>
+	<string>Всего потрачено: %@%%</string>
+	<key>appMenu.updatedLine</key>
+	<string>Обновлено: %@</string>
+	<key>appTheme.dark</key>
+	<string>Тёмное</string>
+	<key>appTheme.light</key>
+	<string>Светлое</string>
+	<key>appTheme.system</key>
+	<string>Автоматически</string>
+	<key>basics.appearance</key>
+	<string>Оформление</string>
+	<key>basics.language</key>
+	<string>Язык</string>
+	<key>basics.launchAtLogin</key>
+	<string>Запускать при входе</string>
+	<key>basics.launchAtLoginDisabled</key>
+	<string>Автозапуск выключен</string>
+	<key>basics.launchAtLoginEnabled</key>
+	<string>Автозапуск включён</string>
+	<key>changelog.empty</key>
+	<string>История изменений пока пуста.</string>
+	<key>changelog.unavailable</key>
+	<string>История изменений недоступна. Установите релиз с GitHub или пересоберите приложение.</string>
+	<key>changelog.version</key>
+	<string>Версия %@</string>
+	<key>common.allowed</key>
+	<string>Разрешено</string>
+	<key>common.cancel</key>
+	<string>Отмена</string>
+	<key>common.check</key>
+	<string>Проверить</string>
+	<key>common.checking</key>
+	<string>Проверка…</string>
+	<key>common.clear</key>
+	<string>Очистить</string>
+	<key>common.close</key>
+	<string>Закрыть</string>
+	<key>common.connected</key>
+	<string>Подключено</string>
+	<key>common.delete</key>
+	<string>Удалить</string>
+	<key>common.details</key>
+	<string>Подробнее</string>
+	<key>common.errorPrefix</key>
+	<string>Ошибка: %@</string>
+	<key>common.loading</key>
+	<string>Загрузка…</string>
+	<key>common.overview</key>
+	<string>Обзор</string>
+	<key>common.quit</key>
+	<string>Выход</string>
+	<key>common.refresh</key>
+	<string>Обновить</string>
+	<key>common.refreshNow</key>
+	<string>Обновить сейчас</string>
+	<key>common.remaining</key>
+	<string>Осталось</string>
+	<key>common.request</key>
+	<string>Запросить</string>
+	<key>common.send</key>
+	<string>Отправить</string>
+	<key>common.settings</key>
+	<string>Настройки</string>
+	<key>common.settingsEllipsis</key>
+	<string>Настройки…</string>
+	<key>common.show</key>
+	<string>Показать</string>
+	<key>common.thresholdValue</key>
+	<string>Порог %@</string>
+	<key>common.today</key>
+	<string>Сегодня</string>
+	<key>common.totalSpent</key>
+	<string>Всего потрачено</string>
+	<key>common.update</key>
+	<string>Обновить</string>
+	<key>common.updated</key>
+	<string>Обновлено</string>
+	<key>configSummary.macOff</key>
+	<string>macOS: выкл</string>
+	<key>configSummary.macOn</key>
+	<string>macOS: вкл</string>
+	<key>configSummary.menuHidden</key>
+	<string>Меню: скрыто</string>
+	<key>configSummary.menuVisible</key>
+	<string>Меню: видно</string>
+	<key>configSummary.poll</key>
+	<string>Опрос: %lld мин</string>
+	<key>configSummary.telegramOff</key>
+	<string>Telegram: выкл</string>
+	<key>configSummary.telegramOn</key>
+	<string>Telegram: вкл</string>
+	<key>configSummary.threshold</key>
+	<string>Порог: %lld%%</string>
+	<key>configSummary.updates</key>
+	<string>Обновления: %@</string>
+	<key>connection.access</key>
+	<string>Доступ к Cursor</string>
+	<key>connection.account</key>
+	<string>Аккаунт</string>
+	<key>connection.active</key>
+	<string>Приложение следит за расходом квоты</string>
+	<key>connection.checking</key>
+	<string>Проверяем доступ к Cursor…</string>
+	<key>connection.getToken</key>
+	<string>Получить токен</string>
+	<key>connection.howItWorks</key>
+	<string>Как это работает</string>
+	<key>connection.howItWorksBody</key>
+	<string>После нажатия «Получить токен» приложение читает локальный токен сессии из базы Cursor, сохраняет его локально и опрашивает сервер Cursor для отображения расхода квоты. Токен никуда, кроме серверов Cursor, не отправляется.</string>
+	<key>connection.prompt</key>
+	<string>Нажмите «Получить токен», чтобы начать</string>
+	<key>connection.revokeToken</key>
+	<string>Отозвать токен</string>
+	<key>cycle.dayFew</key>
+	<string>дня</string>
+	<key>cycle.dayMany</key>
+	<string>дней</string>
+	<key>cycle.dayOne</key>
+	<string>день</string>
+	<key>cycle.daysOne</key>
+	<string>%lld day</string>
+	<key>cycle.daysOther</key>
+	<string>%lld days</string>
+	<key>cycle.resetLine</key>
+	<string>Оплачен до: %@ (%@)</string>
+	<key>cycle.today</key>
+	<string>сегодня</string>
+	<key>error.decode</key>
+	<string>Не удалось разобрать ответ: %@</string>
+	<key>error.network</key>
+	<string>Сеть: %@</string>
+	<key>error.noToken</key>
+	<string>Токен Cursor не найден. Залогинься в приложении Cursor.</string>
+	<key>error.tokenExpired</key>
+	<string>Токен Cursor истёк. Открой Cursor, чтобы обновить сессию.</string>
+	<key>general.dailyThreshold</key>
+	<string>Порог за день</string>
+	<key>general.dailyThresholdDaysAll</key>
+	<string>дн.</string>
+	<key>general.dailyThresholdDaysWorking</key>
+	<string>раб. дн.</string>
+	<key>general.dailyThresholdHint</key>
+	<string>Процент месячной квоты за прирост за день</string>
+	<key>general.dailyThresholdManualHint</key>
+	<string>Предупреждение, если за день потрачено больше</string>
+	<key>general.dailyThresholdSmartHint</key>
+	<string>Порог пересчитывается как оставшаяся квота ÷ оставшиеся дни</string>
+	<key>general.dailyThresholdSmartMode</key>
+	<string>Умный режим</string>
+	<key>general.dailyThresholdSmartModeHint</key>
+	<string>Оставшаяся квота ÷ оставшиеся дни</string>
+	<key>general.dailyThresholdSmartPreview</key>
+	<string>Осталось %@%% · %lld %@</string>
+	<key>general.dailyThresholdWorkingDays</key>
+	<string>Только рабочие дни</string>
+	<key>general.dailyThresholdWorkingDaysHint</key>
+	<string>Без учёта субботы и воскресенья</string>
+	<key>general.interval</key>
+	<string>Интервал</string>
+	<key>general.pollBatteryHint</key>
+	<string>Влияет на расход заряда батареи</string>
+	<key>general.pollInterval</key>
+	<string>Интервал опроса</string>
+	<key>general.threshold</key>
+	<string>Порог</string>
+	<key>general.timeUnit</key>
+	<string>Единица времени</string>
+	<key>journal.accessGranted</key>
+	<string>Доступ разрешён</string>
+	<key>journal.actionFailed</key>
+	<string>Не удалось</string>
+	<key>journal.checkUpdates</key>
+	<string>Проверка обновлений</string>
+	<key>journal.clear</key>
+	<string>Очистить</string>
+	<key>journal.clearHelp</key>
+	<string>Очистить журнал</string>
+	<key>journal.connectCursor</key>
+	<string>Подключение к Cursor</string>
+	<key>journal.disabledHint</key>
+	<string>Новые записи не добавляются</string>
+	<key>journal.downloadUpdate</key>
+	<string>Загрузка обновления</string>
+	<key>journal.emptyPlaceholder</key>
+	<string>—</string>
+	<key>journal.enable</key>
+	<string>Включить логирование</string>
+	<key>journal.enabledHint</key>
+	<string>Записываются обезличенные запросы и действия</string>
+	<key>journal.installUpdate</key>
+	<string>Установка обновления</string>
+	<key>journal.loggingDisabled</key>
+	<string>Логирование выключено</string>
+	<key>journal.notificationCount</key>
+	<string>Количество: %lld</string>
+	<key>journal.pollManual</key>
+	<string>Запрошено вручную</string>
+	<key>journal.pollUsage</key>
+	<string>Опрос расхода</string>
+	<key>journal.readLocalToken</key>
+	<string>Чтение локального токена</string>
+	<key>journal.relaunchApp</key>
+	<string>Перезапуск приложения</string>
+	<key>journal.revokeToken</key>
+	<string>Отзыв токена Cursor</string>
+	<key>journal.saveSettings</key>
+	<string>Сохранение настроек</string>
+	<key>journal.sendNotifications</key>
+	<string>Отправка уведомлений</string>
+	<key>journal.testMac</key>
+	<string>Тестовое уведомление macOS</string>
+	<key>journal.testTelegram</key>
+	<string>Тестовое уведомление Telegram</string>
+	<key>journal.updateInstalled</key>
+	<string>Обновление установлено</string>
+	<key>launchAtLogin.notBundled</key>
+	<string>Автозапуск доступен только для установленного .app</string>
+	<key>license.notFound</key>
+	<string>Текст лицензии не найден.</string>
+	<key>license.title</key>
+	<string>Лицензионное соглашение</string>
+	<key>menuBar.dropdown</key>
+	<string>Выпадающее меню</string>
+	<key>menuBar.mode.daily</key>
+	<string>Процент дневной квоты</string>
+	<key>menuBar.mode.total</key>
+	<string>Общий процент квоты</string>
+	<key>menuBar.reorderAccessibility</key>
+	<string>Перетащите для изменения порядка</string>
+	<key>menuBar.reorderHint</key>
+	<string>Перетащите строки, чтобы изменить порядок</string>
+	<key>menuBar.showInMenuBar</key>
+	<string>Отображать в строке меню</string>
+	<key>menuBar.showInMenuBarHint</key>
+	<string>Приложение работает в фоне, даже если скрыто</string>
+	<key>menuBar.title</key>
+	<string>Строка меню</string>
+	<key>menuBar.titleHint</key>
+	<string>Общий % квоты или % дневной квоты</string>
+	<key>menuBar.warningIcon</key>
+	<string>Иконка предупреждения</string>
+	<key>menuBar.warningIconHint</key>
+	<string>Показывать ⚠️ при превышении дневного порога</string>
+	<key>menuField.autoApi</key>
+	<string>Auto / API</string>
+	<key>menuField.cycleEnd</key>
+	<string>Оплачен до</string>
+	<key>menuField.remaining</key>
+	<string>Осталось</string>
+	<key>menuField.spendUSD</key>
+	<string>Потрачено ($)</string>
+	<key>menuField.today</key>
+	<string>Сегодня</string>
+	<key>menuField.totalSpent</key>
+	<string>Всего потрачено</string>
+	<key>notifications.botToken</key>
+	<string>Токен бота</string>
+	<key>notifications.chatId</key>
+	<string>ID чата</string>
+	<key>notifications.chatIdPlaceholder</key>
+	<string>напр. 12345678</string>
+	<key>notifications.enableMacFirst</key>
+	<string>Включите системные уведомления выше</string>
+	<key>notifications.mac</key>
+	<string>Системные уведомления</string>
+	<key>notifications.macAuthorized</key>
+	<string>Разрешено</string>
+	<key>notifications.macDenied</key>
+	<string>Запрещено — включите в Системных настройках</string>
+	<key>notifications.macNotRequested</key>
+	<string>Не запрошено</string>
+	<key>notifications.macPermission</key>
+	<string>Разрешение macOS</string>
+	<key>notifications.macTestHint</key>
+	<string>Отправит тестовое системное уведомление</string>
+	<key>notifications.macTestNeedsPermission</key>
+	<string>Сначала разрешите уведомления в macOS</string>
+	<key>notifications.openSettings</key>
+	<string>Открыть настройки</string>
+	<key>notifications.permissionAlertBody</key>
+	<string>macOS иногда не показывает диалог для приложений в фоне. Откройте «Системные настройки → Уведомления → Cursor Checker» и включите уведомления вручную.</string>
+	<key>notifications.permissionAlertTitle</key>
+	<string>Не удалось показать запрос разрешения</string>
+	<key>notifications.telegramEnable</key>
+	<string>Включить Telegram</string>
+	<key>notifications.telegramSection</key>
+	<string>Telegram</string>
+	<key>notifications.telegramTestHint</key>
+	<string>Отправит тестовое сообщение в Telegram</string>
+	<key>notifications.test</key>
+	<string>Проверка</string>
+	<key>overview.breakdownAPICaption</key>
+	<string>Прямые вызовы API моделей.</string>
+	<key>overview.breakdownAPITitle</key>
+	<string>API</string>
+	<key>overview.breakdownAutoCaption</key>
+	<string>Tab, Composer и фоновые агенты.</string>
+	<key>overview.breakdownAutoTitle</key>
+	<string>Auto + Composer</string>
+	<key>overview.breakdownSummary</key>
+	<string>%@ Auto и %@ API</string>
+	<key>overview.disconnectedBody</key>
+	<string>Откройте вкладку «Подключение» в настройках и нажмите «Получить токен».</string>
+	<key>overview.disconnectedTitle</key>
+	<string>Cursor не подключён</string>
+	<key>poll.unit.hours</key>
+	<string>Часы</string>
+	<key>poll.unit.minutes</key>
+	<string>Минуты</string>
+	<key>poll.unit.seconds</key>
+	<string>Секунды</string>
+	<key>settings.tab.about</key>
+	<string>О приложении</string>
+	<key>settings.tab.basics</key>
+	<string>Основные</string>
+	<key>settings.tab.connection</key>
+	<string>Подключение</string>
+	<key>settings.tab.general</key>
+	<string>Опрос и пороги</string>
+	<key>settings.tab.journal</key>
+	<string>Журнал</string>
+	<key>settings.tab.menuBar</key>
+	<string>Строка меню</string>
+	<key>settings.tab.notifications</key>
+	<string>Уведомления</string>
+	<key>settings.tab.overview</key>
+	<string>Обзор</string>
+	<key>testNotification.bodyPrefix</key>
+	<string>Тест: уведомления работают. </string>
+	<key>testNotification.quota</key>
+	<string>Сейчас %@%% квоты.</string>
+	<key>testNotification.title</key>
+	<string>Cursor Checker</string>
+	<key>testTelegram.missingCredentials</key>
+	<string>Укажите токен бота и ID чата</string>
+	<key>uninstall.body</key>
+	<string>Будут удалены приложение, автозапуск, настройки и сохранённые токены Telegram и Cursor. Это действие нельзя отменить.</string>
+	<key>uninstall.failed</key>
+	<string>Не удалось удалить приложение</string>
+	<key>uninstall.title</key>
+	<string>Удалить %@?</string>
+	<key>update.archiveMissing</key>
+	<string>Файл не получен</string>
+	<key>update.checksumRequired</key>
+	<string>Для автообновления нужен файл контрольной суммы. Скачайте релиз вручную.</string>
+	<key>update.checksumUnavailable</key>
+	<string>Контрольная сумма недоступна</string>
+	<key>update.fileNotReceived</key>
+	<string>Файл обновления не получен</string>
+	<key>update.githubParseFailed</key>
+	<string>Не удалось разобрать ответ GitHub</string>
+	<key>update.invalidServerResponse</key>
+	<string>Некорректный ответ сервера</string>
+	<key>update.missingZip</key>
+	<string>В релизе нет файла %@</string>
+	<key>update.releasesNotFound</key>
+	<string>Релизы не найдены</string>
+	<key>update.serverCode</key>
+	<string>Сервер вернул код %lld</string>
+	<key>updateChannel.beta</key>
+	<string>Бета</string>
+	<key>updateChannel.stable</key>
+	<string>Стабильный</string>
+	<key>updateError.appNotFound</key>
+	<string>В архиве не найден CursorChecker.app</string>
+	<key>updateError.checksumInvalid</key>
+	<string>Файл контрольной суммы повреждён или имеет неверный формат</string>
+	<key>updateError.checksumMismatch</key>
+	<string>Контрольная сумма архива не совпадает — обновление отменено</string>
+	<key>updateError.checksumUnavailable</key>
+	<string>Не удалось загрузить контрольную сумму релиза</string>
+	<key>updateError.unsafePath</key>
+	<string>Небезопасный путь в архиве: %@</string>
+	<key>updateError.unzipFailed</key>
+	<string>Не удалось распаковать архив обновления</string>
+</dict>
+</plist>

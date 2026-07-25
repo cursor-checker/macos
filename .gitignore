@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+dist/
+*.app/
+graphify-out/
+.swiftpm/xcode/xcuserdata/
+
+# never commit local secrets / runtime state
+.env
+config.json
+state.json
+secrets.json
+journal.json
