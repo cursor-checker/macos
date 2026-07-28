@@ -240,7 +240,12 @@ final class AppModel: ObservableObject {
     }
 
     var effectiveDailyThreshold: Double {
-        AlertEngine.effectiveDailyThreshold(config: config, snapshot: snapshot)
+        AlertEngine.effectiveDailyThreshold(
+            config: config,
+            snapshot: snapshot,
+            state: state,
+            now: snapshot?.fetchedAt ?? Date()
+        )
     }
 
     /// Percent value shown in the menu-bar title, depending on user preference.

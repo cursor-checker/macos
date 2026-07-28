@@ -7,6 +7,7 @@ dist/
 *.app/
 graphify-out/
 .swiftpm/xcode/xcuserdata/
+.idea
 
 # never commit local secrets / runtime state
 .env

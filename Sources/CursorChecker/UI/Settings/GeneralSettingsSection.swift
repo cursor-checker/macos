@@ -95,8 +95,13 @@ struct GeneralSettingsSection: View {
             from: snap.fetchedAt,
             workingDaysOnly: workingDaysOnly
         )
+        let remaining = AlertEngine.pacingRemainingPercent(
+            snapshot: snap,
+            state: model.state,
+            now: snap.fetchedAt
+        )
         return L10n.generalDailyThresholdSmartPreview(
-            AlertEngine.fmt(snap.remainingPercent),
+            AlertEngine.fmt(remaining),
             days,
             workingDaysOnly
         )
