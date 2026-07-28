@@ -86,7 +86,12 @@ enum AlertEngine {
         let spentToday = max(0, snapshot.totalPercentUsed - state.dayBaselinePercent)
 
         // --- Daily threshold (stepped) ---
-        let step = Self.effectiveDailyThreshold(config: config, snapshot: snapshot)
+        let step = Self.effectiveDailyThreshold(
+            config: config,
+            snapshot: snapshot,
+            state: state,
+            now: snapshot.fetchedAt
+        )
         if step > 0 {
             let currentStep = Int(floor(spentToday / step))
             if currentStep > state.lastDailyStepNotified {
@@ -131,9 +136,18 @@ enum AlertEngine {
     }
 
     /// Fixed manual threshold, or remaining quota ÷ remaining days in smart mode.
+    ///
+    /// In smart mode the budget is paced from remaining quota at the **start of
+    /// today** (`100 - dayBaseline`), not the live remaining. Using live
+    /// remaining shrinks today's threshold as you spend, then makes it jump back
+    /// up the next morning when `days` drops by one — which looks like a bug.
+    ///
+    /// Pass `now` from `snapshot.fetchedAt` so day-key and remaining-days match
+    /// `spentToday` / baseline rollover (not wall-clock).
     static func effectiveDailyThreshold(config: Config,
                                         snapshot: UsageSnapshot?,
-                                        now: Date = Date()) -> Double {
+                                        state: UsageState,
+                                        now: Date) -> Double {
         guard config.resolvedDailyThresholdSmartMode, let snapshot else {
             return config.dailyThresholdPercent
         }
@@ -144,6 +158,18 @@ enum AlertEngine {
             workingDaysOnly: config.resolvedDailyThresholdWorkingDaysOnly
         )
         let divisor = max(1, days)
-        return snapshot.remainingPercent / Double(divisor)
+        return pacingRemainingPercent(snapshot: snapshot, state: state, now: now) / Double(divisor)
+    }
+
+    /// Remaining monthly quota used for smart daily pacing (start-of-day).
+    static func pacingRemainingPercent(snapshot: UsageSnapshot,
+                                       state: UsageState,
+                                       now: Date) -> Double {
+        let today = UsageState.dayKey(for: now)
+        if state.dayKey == today,
+           state.cycleStartMs == snapshot.cycleStartMs {
+            return max(0, 100 - state.dayBaselinePercent)
+        }
+        return snapshot.remainingPercent
     }
 }
